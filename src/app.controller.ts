@@ -1,5 +1,5 @@
 import { Controller, Get } from '@nestjs/common';
-import { IAppController } from './IAppController';
+import { IAppController } from './app.controller.interface';
 
 @Controller()
 export class AppController implements IAppController {
