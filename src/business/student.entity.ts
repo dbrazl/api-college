@@ -1,4 +1,6 @@
-export class Student {
+import { IStudent } from './student.entity.interface';
+
+export class Student implements IStudent {
   private _id: number;
   private _uuid: string;
   private _name: string;
