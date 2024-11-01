@@ -1,99 +1,86 @@
+<h1 align="center">⚙️ API de Faculdade</h1>
+<br>
+
+![Banner](https://github-dbrazl.s3.us-east-1.amazonaws.com/api-college/banner.svg?v=1.0.0)
+
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
+  Bem-vindo a API de Faculdade! Este espaço foi criado para treinar as squads da plataforma Amei da Amor Saúde sobre testes unitários aplicados ao Nest.js.
 </p>
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
-
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg" alt="Donate us"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow" alt="Follow us on Twitter"></a>
+<br>
+<p align="center">
+  <img src="https://img.shields.io/badge/autor-@dbrazl-FB8C00?style=flat" alt="Autor: @dbrazl">
 </p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+<br>
 
-## Description
+## 🎯 Objetivo
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+<p align="justify">
+  Repositório focado no treinamento de squads da plataforma Amei, da Amor Saúde, sobre testes unitários com Nest.js. Este conteúdo tem o objetivo de capacitar as equipes a desenvolverem testes eficazes para garantir a qualidade e a confiabilidade dos principais fluxos da aplicação. Contém exemplos práticos e melhores práticas para a criação de testes unitários, promovendo uma cultura de desenvolvimento orientado a testes e fortalecendo a estrutura dos serviços oferecidos pela plataforma.
+</p>
 
-## Project setup
+## 🛠 Tecnologias
 
-```bash
-$ yarn install
-```
+<p align="justify">
+  As tecnologias utilizadas nesse projeto foram:
+</p>
 
-## Compile and run the project
+![Nest.js](https://img.shields.io/badge/Nest.js-333333?style=flat&logo=nestjs&logoColor=E0234E)
+![Prisma](https://img.shields.io/badge/Prisma-333333?style=flat&logo=prisma)
+![Jest](https://img.shields.io/badge/Jest-333333?style=flat&logo=jest&logoColor=C8431B)
+![SQLite](https://img.shields.io/badge/SQLite-333333?style=flat&logo=sqlite&logoColor=107BC4)
 
-```bash
-# development
-$ yarn run start
+## 📥 Instalação
 
-# watch mode
-$ yarn run start:dev
+Sigo os passo abaixo para pode instalar o projeto na máquina alvo.
 
-# production mode
-$ yarn run start:prod
-```
+### Passo 1: Download
 
-## Run tests
-
-```bash
-# unit tests
-$ yarn run test
-
-# e2e tests
-$ yarn run test:e2e
-
-# test coverage
-$ yarn run test:cov
-```
-
-## Deployment
-
-When you're ready to deploy your NestJS application to production, there are some key steps you can take to ensure it runs as efficiently as possible. Check out the [deployment documentation](https://docs.nestjs.com/deployment) for more information.
-
-If you are looking for a cloud-based platform to deploy your NestJS application, check out [Mau](https://mau.nestjs.com), our official platform for deploying NestJS applications on AWS. Mau makes deployment straightforward and fast, requiring just a few simple steps:
+<p align="justify">
+  O primeiro passo é o download do projeto para a máquina alvo. Para isso é necessário que você tenha o Git instalado e uma conta no GitHub.
+</p>
+<p align="justify">
+  Com esses requisitos atendidos, uma das formas de fazer o download dos arquivos do projeto é via SSH. Caso ainda não tenha, cadastre uma chave SSH na máquina alvo e a chave pública no GitHub, e após faça o clone do projeto seguindo a instrução abaixo:
+</p>
 
 ```bash
-$ yarn install -g mau
-$ mau deploy
+  git clone git@github.com:dbrazl/api-college.git
 ```
 
-With Mau, you can deploy your application in just a few clicks, allowing you to focus on building features rather than managing infrastructure.
+### Passo 2: Instalação de pacotes
 
-## Resources
+<p align="justify">
+  Para instalar os pacotes do projeto, use o seguinte comando no diretório raiz do projeto:
+</p>
 
-Check out a few resources that may come in handy when working with NestJS:
+```bash
+  yarn
+```
 
-- Visit the [NestJS Documentation](https://docs.nestjs.com) to learn more about the framework.
-- For questions and support, please visit our [Discord channel](https://discord.gg/G7Qnnhy).
-- To dive deeper and get more hands-on experience, check out our official video [courses](https://courses.nestjs.com/).
-- Deploy your application to AWS with the help of [NestJS Mau](https://mau.nestjs.com) in just a few clicks.
-- Visualize your application graph and interact with the NestJS application in real-time using [NestJS Devtools](https://devtools.nestjs.com).
-- Need help with your project (part-time to full-time)? Check out our official [enterprise support](https://enterprise.nestjs.com).
-- To stay in the loop and get updates, follow us on [X](https://x.com/nestframework) and [LinkedIn](https://linkedin.com/company/nestjs).
-- Looking for a job, or have a job to offer? Check out our official [Jobs board](https://jobs.nestjs.com).
+<p align="justify">
+  Certifique-se de ter o yarn instalado.
+</p>
 
-## Support
+## 🚀 Como Rodar
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+<p align="justify">
+  Com a etapa de instalação finalizada, basta rodar o comando abaixo para inciar a aplicação na porta <strong>3000</strong> da máquina alvo:
+</p>
 
-## Stay in touch
+```bash
+  yarn start:dev
+```
 
-- Author - [Kamil Myśliwiec](https://twitter.com/kammysliwiec)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+## 📚 Documentação
 
-## License
+<p align="justify">
+  Siga os links abaixo para ter acesso a(s) documentação(ões) do projeto.
+</p>
 
-Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+- [Documentação de Requisitos](./docs/REQUIREMENTS_DOCUMENT.md)
+
+## 📬 Contato
+
+<p align="justify">
+  Se você tiver dúvidas ou sugestões, pode me encontrar em <a href="mailto:daniel.braz@vyox.io">daniel.braz@vyox.io</a> ou através do <a href="https://www.linkedin.com/in/dbrazl/">LinkedIn</a>.
+</p>
