@@ -22,7 +22,7 @@ export class Student implements IStudent {
   }
 
   public isAdmitted(): boolean {
-    return this._score > 70;
+    return this._score >= 70;
   }
 
   public get id(): number {
