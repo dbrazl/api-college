@@ -71,6 +71,12 @@ Sigo os passo abaixo para pode instalar o projeto na máquina alvo.
   yarn start:dev
 ```
 
+## 🌱 Branches
+
+<p align="justify">
+  Os testes com 100% de cobertura podem ser encontrados na branch <strong>test</strong>. Prátique na branch <strong>main</strong> e compare os resultados coma branch <strong>test</strong>.
+</p>
+
 ## 📚 Documentação
 
 <p align="justify">
